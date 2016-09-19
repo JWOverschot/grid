@@ -2,12 +2,17 @@
 body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
+	
+	width: 620px;
+	margin: 0 auto;
 }
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
 	
-	/* put css-rules in this ccs-block here below */
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
 	
 }
 
@@ -15,14 +20,17 @@ h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
 	
-	/* put css-rules in this ccs-block here below */
+	padding: 20px;
+	margin: 10px 10px 30px 10px;
 	
 }
 
 h2 {
 	line-height: 30px;
 	
-	/* put css-rules in this ccs-block here below */
+	border: 5px purple solid;
+	margin: 10px;
+	padding: 5px 20px 5px 20px;
 	
 }
 
@@ -30,6 +38,7 @@ p{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
 	
-	/* put css-rules in this ccs-block here below */
+	margin: 10px;
+	padding: 10px;
 
 }
